@@ -1,0 +1,95 @@
+{
+  "total_records_ingested": 652025,
+  "source_breakdown": {
+    "VIIRS_NOAA20": 213338,
+    "VIIRS_SNPP": 212965,
+    "VIIRS_NOAA21": 195078,
+    "MODIS_C61": 30644
+  },
+  "row_count_reconciliation": {
+    "VIIRS_SNPP": {
+      "expected": 212965,
+      "actual": 212965,
+      "matches": true
+    },
+    "VIIRS_NOAA20": {
+      "expected": 213338,
+      "actual": 213338,
+      "matches": true
+    },
+    "VIIRS_NOAA21": {
+      "expected": 195078,
+      "actual": 195078,
+      "matches": true
+    },
+    "MODIS_C61": {
+      "expected": 30644,
+      "actual": 30644,
+      "matches": true
+    },
+    "TOTAL": {
+      "expected": 652025,
+      "actual": 652025,
+      "matches": true
+    }
+  },
+  "coordinate_checks": {
+    "invalid_latitude_count": 0,
+    "invalid_longitude_count": 0,
+    "outside_india_envelope_count": 0,
+    "latitude_min": 8.07984,
+    "latitude_max": 34.49413,
+    "longitude_min": 68.5089,
+    "longitude_max": 97.02972
+  },
+  "temporal_checks": {
+    "invalid_date_count": 0,
+    "invalid_time_count": 0,
+    "first_acquisition_date": "2025-03-01",
+    "last_acquisition_date": "2025-03-31",
+    "total_days_covered": 31
+  },
+  "frp_checks": {
+    "frp_min": 0.0,
+    "frp_max": 2338.5,
+    "frp_mean": 9.906551850005751,
+    "frp_median": 4.28,
+    "negative_frp_count": 0,
+    "extreme_frp_count": 0
+  },
+  "missing_values": {
+    "latitude": 0,
+    "longitude": 0,
+    "brightness": 0,
+    "scan": 0,
+    "track": 0,
+    "acq_date": 0,
+    "acq_time": 0,
+    "satellite": 0,
+    "instrument": 0,
+    "confidence": 0,
+    "version": 0,
+    "bright_t31": 0,
+    "frp": 0,
+    "daynight": 0,
+    "type": 0,
+    "source_archive": 0,
+    "source_product": 0,
+    "sensor_family": 0,
+    "nominal_resolution_m": 0,
+    "citation": 0,
+    "platform_name": 0,
+    "confidence_raw": 0,
+    "confidence_encoding": 0,
+    "acq_datetime_utc": 0,
+    "obs_id": 0
+  },
+  "duplicate_records": {
+    "candidate_duplicate_count": 4,
+    "exact_identical_row_count": 0,
+    "policy": "Preserved in pipeline; flagged in audit log. No records silently deleted."
+  },
+  "questionable_records_count": 0,
+  "rejected_records_count": 0,
+  "is_valid": true
+}

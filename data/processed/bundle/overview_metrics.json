@@ -1,0 +1,41 @@
+{
+  "dataset_name": "FireHorizon NASA FIRMS Archive (India)",
+  "coverage_period": "2025-03-01 to 2025-03-31",
+  "archive_status": "Archived Research Dataset (Not a live telemetry feed)",
+  "total_observations": 652025,
+  "modis_observations": 30644,
+  "viirs_observations": 621381,
+  "viirs_snpp": 212965,
+  "viirs_noaa20": 213338,
+  "viirs_noaa21": 195078,
+  "total_frp_mw": 6459319.47,
+  "mean_frp_mw": 9.91,
+  "active_grid_cells_1km_india": 241069,
+  "active_grid_cells_1km_maharashtra": 32320,
+  "maharashtra_observations": 77534,
+  "maharashtra_modis_detections": 3026,
+  "maharashtra_viirs_snpp_detections": 25698,
+  "maharashtra_viirs_noaa20_detections": 25269,
+  "maharashtra_viirs_noaa21_detections": 23541,
+  "maharashtra_frp_mw": 447336.93,
+  "candidate_matches_india": 142748,
+  "candidate_matches_maharashtra": 11748,
+  "peak_activity_date_maharashtra": "2025-03-16",
+  "peak_activity_detections_maharashtra": 4411,
+  "peak_frp_date_maharashtra": "2025-03-25",
+  "peak_frp_mw_maharashtra": 23797.36,
+  "day_observations": 465534,
+  "night_observations": 186491,
+  "pipeline_execution_time_seconds": 65.56,
+  "co_detection_methodology": {
+    "spatial_threshold_meters": 1000,
+    "temporal_threshold_minutes": 60,
+    "grid_resolution_km": 1,
+    "note": "Candidate co-detections only. Same-fire confirmation requires ground truth."
+  },
+  "confidence_methodology": {
+    "modis": "Numeric 0-100 (product confidence score)",
+    "viirs": "Categorical: l=low, n=nominal, h=high",
+    "note": "MODIS and VIIRS confidence scales are not interchangeable. No cross-sensor normalization applied."
+  }
+}

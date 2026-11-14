@@ -221,4 +221,6 @@ FireHorizon/
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.  
 Satellite active fire data courtesy of NASA FIRMS. Administrative boundary courtesy of geoBoundaries gbOpen (CC BY 2.5 IN).
 #   F i r e H o r i z o n  
+ #   F i r e H o r i z o n  
+ #   F i r e H o r i z o n  
  

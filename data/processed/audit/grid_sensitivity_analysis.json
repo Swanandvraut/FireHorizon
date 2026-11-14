@@ -1,0 +1,20 @@
+{
+  "500": {
+    "resolution_meters": 500,
+    "total_observations": 10000,
+    "unique_active_cells": 8562,
+    "mean_observations_per_cell": 1.168
+  },
+  "1000": {
+    "resolution_meters": 1000,
+    "total_observations": 10000,
+    "unique_active_cells": 6674,
+    "mean_observations_per_cell": 1.498
+  },
+  "2000": {
+    "resolution_meters": 2000,
+    "total_observations": 10000,
+    "unique_active_cells": 5036,
+    "mean_observations_per_cell": 1.986
+  }
+}

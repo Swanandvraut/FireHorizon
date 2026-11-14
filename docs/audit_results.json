@@ -1,0 +1,328 @@
+{
+  "Total rows = 652,025": {
+    "status": "PASS",
+    "detail": "Actual: 652,025"
+  },
+  "actual_total_rows": 652025,
+  "MODIS_C61 row count = 30,644": {
+    "status": "PASS",
+    "detail": "Actual: 30,644"
+  },
+  "count_MODIS_C61": 30644,
+  "VIIRS_SNPP row count = 212,965": {
+    "status": "PASS",
+    "detail": "Actual: 212,965"
+  },
+  "count_VIIRS_SNPP": 212965,
+  "VIIRS_NOAA20 row count = 213,338": {
+    "status": "PASS",
+    "detail": "Actual: 213,338"
+  },
+  "count_VIIRS_NOAA20": 213338,
+  "VIIRS_NOAA21 row count = 195,078": {
+    "status": "PASS",
+    "detail": "Actual: 195,078"
+  },
+  "count_VIIRS_NOAA21": 195078,
+  "All latitudes in [-90, 90]": {
+    "status": "PASS",
+    "detail": "Invalid: 0"
+  },
+  "All longitudes in [-180, 180]": {
+    "status": "PASS",
+    "detail": "Invalid: 0"
+  },
+  "Coordinate range (India expected)": {
+    "status": "INFO",
+    "detail": "Lat: 8.0798 to 34.4941  |  Lon: 68.5089 to 97.0297"
+  },
+  "All acq_date values parseable": {
+    "status": "PASS",
+    "detail": "Unparseable: 0"
+  },
+  "Date range 2025-03-01 to 2025-03-31": {
+    "status": "PASS",
+    "detail": "Actual range: 2025-03-01 to 2025-03-31"
+  },
+  "Unique dates = 31": {
+    "status": "PASS",
+    "detail": "Unique dates found: 31"
+  },
+  "UTC acquisition time sample": {
+    "status": "INFO",
+    "detail": "  acq_date  acq_time source_product\n2025-03-01       555     VIIRS_SNPP\n2025-03-01       555     VIIRS_SNPP\n2025-03-01       555     VIIRS_SNPP\n2025-03-01       555     VIIRS_SNPP\n2025-03-01       555     VIIRS_SNPP"
+  },
+  "acq_time is 4-digit HHMM format": {
+    "status": "WARN",
+    "detail": "Malformed: 465,502 rows\nSample: ['555', '555', '555']"
+  },
+  "acq_datetime_utc column present and parseable": {
+    "status": "PASS",
+    "detail": "Parse failures: 0"
+  },
+  "acq_datetime_utc sample": {
+    "status": "INFO",
+    "detail": "  acq_date  acq_time    acq_datetime_utc\n2025-03-01       555 2025-03-01 05:55:00\n2025-03-01       555 2025-03-01 05:55:00\n2025-03-01       555 2025-03-01 05:55:00"
+  },
+  "Column 'confidence_raw' present": {
+    "status": "PASS",
+    "detail": ""
+  },
+  "Column 'confidence_encoding' present": {
+    "status": "PASS",
+    "detail": ""
+  },
+  "Confidence encoding by source": {
+    "status": "INFO",
+    "detail": "source_product\nMODIS_C61       numeric product value (0-100)\nVIIRS_NOAA20              categorical (l/n/h)\nVIIRS_NOAA21              categorical (l/n/h)\nVIIRS_SNPP                categorical (l/n/h)"
+  },
+  "MODIS confidence_raw is numeric (0-100)": {
+    "status": "PASS",
+    "detail": "Non-numeric: 0  |  Range: 0\u2013100"
+  },
+  "VIIRS confidence_raw is categorical (l/n/h)": {
+    "status": "PASS",
+    "detail": "Unique values found: ['h', 'l', 'n']"
+  },
+  "activity_daily_maharashtra.csv loaded": {
+    "status": "PASS",
+    "detail": "Rows: 31"
+  },
+  "Maharashtra observation column": {
+    "status": "WARN",
+    "detail": "Columns: ['activity_date', 'region_id', 'modis_detection_count', 'viirs_snpp_detection_count', 'viirs_noaa20_detection_count', 'viirs_noaa21_detection_count', 'viirs_total_detection_count', 'total_detections', 'modis_frp_sum', 'viirs_frp_sum', 'total_frp_sum', 'active_grid_cells', 'cross_sensor_overlap_cells', 'experimental_activity_index', 'index_method', 'baseline_status', 'uncertainty_status', 'processing_version', 'intra_month_detection_zscore', 'intra_month_frp_zscore', 'climatological_anomaly_status', 'climatological_baseline_required_years', 'early_warning_claim_allowed']"
+  },
+  "FRP column present and numeric": {
+    "status": "PASS",
+    "detail": "Valid: 652,025  |  Missing: 0"
+  },
+  "FRP range sanity (0\u201310000 MW expected)": {
+    "status": "INFO",
+    "detail": "Min: 0.00 MW  |  Max: 2338.50 MW  |  Mean: 9.91 MW"
+  },
+  "Total FRP India (MW)": {
+    "status": "INFO",
+    "detail": "Actual: 6,459,319.47 MW"
+  },
+  "total_frp_india_mw": 6459319.47,
+  "total_frp_mw column in Maharashtra daily CSV": {
+    "status": "WARN",
+    "detail": "Columns: ['activity_date', 'region_id', 'modis_detection_count', 'viirs_snpp_detection_count', 'viirs_noaa20_detection_count', 'viirs_noaa21_detection_count', 'viirs_total_detection_count', 'total_detections', 'modis_frp_sum', 'viirs_frp_sum', 'total_frp_sum', 'active_grid_cells', 'cross_sensor_overlap_cells', 'experimental_activity_index', 'index_method', 'baseline_status', 'uncertainty_status', 'processing_version', 'intra_month_detection_zscore', 'intra_month_frp_zscore', 'climatological_anomaly_status', 'climatological_baseline_required_years', 'early_warning_claim_allowed']"
+  },
+  "FRP correctly labeled (not 'Total Energy')": {
+    "status": "INFO",
+    "detail": "Metric unit is MW (megawatts of radiant power), not joules or energy integral"
+  },
+  "Maharashtra modis_detection_count total": {
+    "status": "INFO",
+    "detail": "3,026"
+  },
+  "maharashtra_modis_detection_count": 3026,
+  "Maharashtra viirs_snpp_detection_count total": {
+    "status": "INFO",
+    "detail": "25,698"
+  },
+  "maharashtra_viirs_snpp_detection_count": 25698,
+  "Maharashtra viirs_noaa20_detection_count total": {
+    "status": "INFO",
+    "detail": "25,269"
+  },
+  "maharashtra_viirs_noaa20_detection_count": 25269,
+  "Maharashtra viirs_noaa21_detection_count total": {
+    "status": "INFO",
+    "detail": "23,541"
+  },
+  "maharashtra_viirs_noaa21_detection_count": 23541,
+  "Maharashtra viirs_total_detection_count total": {
+    "status": "INFO",
+    "detail": "74,508"
+  },
+  "maharashtra_viirs_total_detection_count": 74508,
+  "Maharashtra modis_frp_sum total": {
+    "status": "INFO",
+    "detail": "56,829"
+  },
+  "maharashtra_modis_frp_sum": 56829,
+  "Maharashtra viirs_frp_sum total": {
+    "status": "INFO",
+    "detail": "390,507"
+  },
+  "maharashtra_viirs_frp_sum": 390507,
+  "Sensor-wise contributions (from combined CSV, India)": {
+    "status": "INFO",
+    "detail": "  MODIS_C61: 30,644\n  VIIRS_NOAA20: 213,338\n  VIIRS_NOAA21: 195,078\n  VIIRS_SNPP: 212,965"
+  },
+  "sensor_comparison_daily_maharashtra.csv loaded": {
+    "status": "PASS",
+    "detail": "Rows: 31"
+  },
+  "candidate_matches column Maharashtra": {
+    "status": "WARN",
+    "detail": "Column not found. Available: ['activity_date', 'region_id', 'sensor_a', 'sensor_b', 'sensor_a_count', 'sensor_b_count', 'sensor_a_frp_sum', 'sensor_b_frp_sum', 'candidate_match_count', 'co_detected_grid_cells', 'distance_threshold_meters', 'time_threshold_minutes', 'methodology_version']\nMatch-like cols: ['candidate_match_count']"
+  },
+  "  candidate_match_count total Maharashtra": {
+    "status": "INFO",
+    "detail": "11,748"
+  },
+  "  distance_threshold_meters": {
+    "status": "INFO",
+    "detail": "1000.0"
+  },
+  "  time_threshold_minutes": {
+    "status": "INFO",
+    "detail": "60.0"
+  },
+  "  methodology_version": {
+    "status": "INFO",
+    "detail": "v1.0"
+  },
+  "sensor_comparison_daily_india.csv loaded": {
+    "status": "PASS",
+    "detail": "Rows: 31"
+  },
+  "candidate_matches column India": {
+    "status": "WARN",
+    "detail": "Column not found. Available: ['activity_date', 'region_id', 'sensor_a', 'sensor_b', 'sensor_a_count', 'sensor_b_count', 'sensor_a_frp_sum', 'sensor_b_frp_sum', 'candidate_match_count', 'co_detected_grid_cells', 'distance_threshold_meters', 'time_threshold_minutes', 'methodology_version']\nMatch-like cols: ['candidate_match_count']"
+  },
+  "  candidate_match_count total India": {
+    "status": "INFO",
+    "detail": "142,748"
+  },
+  "overview_metrics.json loaded": {
+    "status": "PASS",
+    "detail": "{\n  \"dataset_name\": \"FireHorizon NASA FIRMS Archive (India)\",\n  \"coverage_period\": \"2025-03-01 to 2025-03-31\",\n  \"archive_status\": \"Archived Research Dataset (Not a live telemetry feed)\",\n  \"total_observations\": 652025,\n  \"modis_observations\": 30644,\n  \"viirs_observations\": 621381,\n  \"viirs_snpp\": 212965,\n  \"viirs_noaa20\": 213338,\n  \"viirs_noaa21\": 195078,\n  \"total_frp_mw\": 6459319.47,\n  \"mean_frp_mw\": 9.91,\n  \"active_grid_cells_1km_india\": 241069,\n  \"active_grid_cells_1km_maharashtra\": 32320,\n  \"maharashtra_observations\": 77534,\n  \"candidate_matches_india\": 142748,\n  \"candidate_matches_maharashtra\": 11748,\n  \"day_observations\": 465534,\n  \"night_observations\": 186491,\n  \"pipeline_execution_time_seconds\": 65.56\n}"
+  },
+  "overview_metrics_json": {
+    "dataset_name": "FireHorizon NASA FIRMS Archive (India)",
+    "coverage_period": "2025-03-01 to 2025-03-31",
+    "archive_status": "Archived Research Dataset (Not a live telemetry feed)",
+    "total_observations": 652025,
+    "modis_observations": 30644,
+    "viirs_observations": 621381,
+    "viirs_snpp": 212965,
+    "viirs_noaa20": 213338,
+    "viirs_noaa21": 195078,
+    "total_frp_mw": 6459319.47,
+    "mean_frp_mw": 9.91,
+    "active_grid_cells_1km_india": 241069,
+    "active_grid_cells_1km_maharashtra": 32320,
+    "maharashtra_observations": 77534,
+    "candidate_matches_india": 142748,
+    "candidate_matches_maharashtra": 11748,
+    "day_observations": 465534,
+    "night_observations": 186491,
+    "pipeline_execution_time_seconds": 65.56
+  },
+  "metrics.json['total_observations'] vs computed": {
+    "status": "PASS",
+    "detail": "JSON: 652,025  |  Computed: 652,025"
+  },
+  "metrics.json['total_frp_mw'] vs computed": {
+    "status": "PASS",
+    "detail": "JSON: 6,459,319.47  |  Computed: 6,459,319.47"
+  },
+  "calendar_maharashtra.json loaded": {
+    "status": "PASS",
+    "detail": "Top-level keys: ['region_id', 'month_summary', 'weekly_summaries', 'daily_records']"
+  },
+  "Peak activity date (from metrics JSON)": {
+    "status": "INFO",
+    "detail": "not in metrics"
+  },
+  "Maharashtra boundary geometry type(s)": {
+    "status": "PASS",
+    "detail": "Types: {'MultiPolygon'}  |  Features: 1  |  Coord vertices: 72,274"
+  },
+  "Boundary is Polygon/MultiPolygon (not bounding box)": {
+    "status": "PASS",
+    "detail": "Real administrative polygon confirmed"
+  },
+  "geographic_filter.py uses polygon point-in-polygon": {
+    "status": "PASS",
+    "detail": "contains_xy: YES  | .contains: YES"
+  },
+  "No hardcoded fallback statistics in frontend": {
+    "status": "FAIL",
+    "detail": "4 hardcoded values found:\n  frontend\\src\\views\\OverviewView.tsx:80  [77534]  ? metrics?.maharashtra_observations ?? 77534\n  frontend\\src\\views\\OverviewView.tsx:84  [28450]  ? metrics?.active_grid_cells_1km_maharashtra ?? 28450\n  frontend\\src\\views\\OverviewView.tsx:88  [2450]  ? metrics?.candidate_matches_maharashtra ?? 2450\n  frontend\\src\\views\\OverviewView.tsx:89  [18450]  : metrics?.candidate_matches_india ?? 18450;"
+  },
+  "hardcoded_values": [
+    {
+      "file": "frontend\\src\\views\\OverviewView.tsx",
+      "line": 80,
+      "value": "77534",
+      "content": "? metrics?.maharashtra_observations ?? 77534"
+    },
+    {
+      "file": "frontend\\src\\views\\OverviewView.tsx",
+      "line": 84,
+      "value": "28450",
+      "content": "? metrics?.active_grid_cells_1km_maharashtra ?? 28450"
+    },
+    {
+      "file": "frontend\\src\\views\\OverviewView.tsx",
+      "line": 88,
+      "value": "2450",
+      "content": "? metrics?.candidate_matches_maharashtra ?? 2450"
+    },
+    {
+      "file": "frontend\\src\\views\\OverviewView.tsx",
+      "line": 89,
+      "value": "18450",
+      "content": ": metrics?.candidate_matches_india ?? 18450;"
+    }
+  ],
+  "Terminology issues found": {
+    "status": "FAIL",
+    "detail": "2 issues:\n  frontend\\src\\views\\CalendarView.tsx:134  [Total Energy] \u2192 Should be 'Total FRP (MW)'\n  frontend\\src\\views\\OverviewView.tsx:347  [fire count] \u2192 Ambiguous \u2014 should be 'observation count' or 'detection count'"
+  },
+  "terminology_issues": [
+    {
+      "file": "frontend\\src\\views\\CalendarView.tsx",
+      "line": 134,
+      "term": "Total Energy",
+      "suggestion": "Should be 'Total FRP (MW)'",
+      "content": "<span className=\"text-[10px] uppercase text-slate-400 block font-sans\">Total Energy</span>"
+    },
+    {
+      "file": "frontend\\src\\views\\OverviewView.tsx",
+      "line": 347,
+      "term": "fire count",
+      "suggestion": "Ambiguous \u2014 should be 'observation count' or 'detection count'",
+      "content": "<span className=\"font-semibold text-amber-300\">1. Observation Count \u2260 Fire Count</span>"
+    }
+  ],
+  "Supabase .env file present": {
+    "status": "PASS",
+    "detail": ""
+  },
+  "Supabase URL configured": {
+    "status": "PASS",
+    "detail": "URL present and not placeholder"
+  },
+  "Supabase publishable key configured": {
+    "status": "PASS",
+    "detail": "Key present and not placeholder"
+  },
+  "Supabase connection status": {
+    "status": "PASS",
+    "detail": "CONNECTED"
+  },
+  "supabase_connected": true,
+  "grid_cells_maharashtra.json structure": {
+    "status": "INFO",
+    "detail": "Array with 2,000 elements"
+  },
+  "maharashtra_grid_cells": 2000,
+  "Active grid cells count (Maharashtra)": {
+    "status": "INFO",
+    "detail": "Cells in JSON: 2000"
+  },
+  "metrics.json['active_grid_cells_1km_maharashtra']": {
+    "status": "INFO",
+    "detail": "32,320"
+  },
+  "metrics.json['active_grid_cells_1km_india']": {
+    "status": "INFO",
+    "detail": "241,069"
+  }
+}
